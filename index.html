@@ -5,6 +5,26 @@
     </head>
     <body>
         <h1>Hola</h1>
-      
+            <form method="post" action="app.php">
+                <label>n1</label>
+                <input type="text" name="numero1" /><br /><br />
+                
+                <label>n2</label>
+                <input type="text" name="numero2" /><br />
+                
+                <br /><br />
+                
+                <label>operacion</label>
+                <select name="operacion">
+                    <option value="s">Suma</option>
+                    <option value="r">Resta</option>
+                    <option value="m">Multiplicacion</option>
+                    <option value="d">division</option>
+                </select>
+                
+                <br /><br />
+                
+                <input type="submit" value="Enviar" />
+            </form>
     </body>
   </html>

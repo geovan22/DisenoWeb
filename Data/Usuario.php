@@ -19,7 +19,6 @@
         
         
         
-        
         public function BuscarUsuario($u, $p)
         {
             

@@ -74,14 +74,27 @@
         "estado"=>true,
         array(
                 0,1,2,3
-        )
+        ),
+        "otro"=>"adios"
     );
     
-    var_dump($frutas);
+    //var_dump($frutas);
     
     //echo $frutas['amarillas'];
     
+    $user=array(
+        ["User"=>"Ana","Pass"=>123],
+        ["User"=>"Pilar","Pass"=>321],
+        ["User"=>"Andrea","Pass"=>654],
+        ["User"=>"Renato","Pass"=>456]
+    );
     
+    var_dump($user);
+    
+    foreach ($user as $u )
+    {
+        echo $u["User"]."--".$u["Pass"]."<br />";
+    }
     
     
     
